@@ -1,0 +1,55 @@
+.company-logos {
+    margin-bottom: 0px; /* Reduced bottom margin to decrease space between the logo section and the partnership section */
+  }
+  section.company-logos{
+    padding: 2rem;
+    margin: 1rem 0;
+    min-height: 0vh;
+  }
+  .company-logos h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin to bring the heading closer to the logos */
+    font-size: 2rem;
+    color: hsl(0, 75%, 2%);
+  }
+  
+  .logo-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-slide img {
+    width: 150px;
+    /* height: auto; */
+    object-fit: contain;
+  }
+  
+  .partnership {
+    margin-top: 100px; /* Maintain the margin-top for consistency */
+    text-align: center;
+  }
+  
+  .partnership h2 {
+    font-size: 1.8rem;
+    margin-bottom: 60px; /* Reduced margin to bring the heading closer to the images */
+    color: hsl(0, 75%, 2%);
+  }
+  
+  .partnership-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between images */
+  }
+  
+  .partnership-images img {
+    width: 48%; /* Adjusted to fit within container */
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%); /* Apply grayscale filter */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .partnership-images img:hover {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+  }
+  

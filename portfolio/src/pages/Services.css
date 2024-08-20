@@ -1,0 +1,89 @@
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+ 
+  
+  .bulletin {
+    margin-bottom: 20px;
+    background-color: hsl(0, 75%, 2%);
+    font-size: 1.1rem; /* Size for the bulletin text */
+    color: #fff; /* White color for text */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+  }
+  
+  .bulletin h2 {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: hsl(0, 75%, 2%);
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: hsl(0, 75%, 2%);
+    margin-bottom: 30px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .service-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px); /* Lift the box up on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow effect */
+  }
+  
+ 
+  .service-icon {
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin: 40px 0; /* Adjusted margin */
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: black;
+    /* margin: 80px 0; */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

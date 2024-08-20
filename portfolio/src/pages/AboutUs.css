@@ -1,0 +1,68 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .about-us-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds a small distance between boxes */
+    margin-top: 40px;
+  }
+  
+  .about-us-box {
+    background-color: #cbdae8;
+    border-radius: 10px;
+    padding: 30px; /* Increased padding for a better UI */
+    text-align: center;
+    width: 32%; /* Adjusted width to better fit with gap */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 
+                0 10px 10px rgba(0, 0, 0, 0.05); /* Enhanced 3D shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for shadow */
+    height: 400px; /* Slightly increased height for better UI */
+  }
+  
+  .about-us-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2),
+                0 15px 15px rgba(0, 0, 0, 0.1); /* More pronounced shadow on hover */
+  }
+  
+  .box-icon {
+    font-size: 50px; /* Slightly larger icon size for better emphasis */
+    color: hsl(0, 75%, 2%); /* Example color */
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+  }
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    color: hsl(0, 75%, 2%); /* Improved readability */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-boxes {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      
+    }
+  
+    .about-us-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

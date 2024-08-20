@@ -1,0 +1,85 @@
+/* General Home Page Style */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin:50px;
+    margin-bottom: 2rem;
+    /* Space between sections */
+  }
+  
+  /* Reverse Layout for Second Section */
+  .home-section.reverse {
+    flex-direction: row-reverse; /* Switch image and text positions */
+  }
+  
+  /* Bulletin Style */
+  .home__bulletin {
+    font-size: 1.1rem; /* Size for the bulletin text */
+    color: #fff; /* White color for text */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #647C90; /* Background color matching the button */
+    border: 2px solid #647C90; /* Border color matching the background */
+    padding: 0.5rem;
+    border-radius: 4px; /* Rounded corners */
+    display: inline-block;
+    margin-bottom: 1rem; /* Space below the bulletin */
+  }
+  
+  /* Text Container Style */
+  .home__text {
+    flex: 1;
+    max-width: 50%; /* Width control for text section */
+    padding-right: 2rem;
+     /* Space between text and image */
+  }
+  
+  /* Heading Style */
+  .home__text h1 {
+    font-size: 2.5rem; /* Font size for the heading */
+    margin-bottom: 1rem;
+    margin-right: 10rem; 
+    
+  }
+  
+  /* Paragraph Style */
+  .home__text p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    margin-bottom: 2rem;
+    /* margin-right: 10rem;  */
+    color: hsl(0, 75%, 2%); /* Space below the paragraph */
+  }
+  
+  /* Call-to-Action Button Style */
+  .home__cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff; /* White text color */
+    background-color: #647C90; /* Button background color */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  /* Call-to-Action Button Hover Effect */
+  .home__cta:hover {
+    background-color: #647C90; /* Darker shade on hover */
+  }
+  
+  /* Image Style */
+  .home__image img {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50px;
+     /* Rounded corners for the image */
+  }
+  
+  .home__image-img{
+    height: 800px;
+    width: 700px;
+  }
